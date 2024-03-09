@@ -9,7 +9,7 @@ public class ProductOfDigits {
         int num = in.nextInt();
         int num1 = num;
 //        int numDigits = String.valueOf(num).length();
-        int numDigits = (int)Math.log10(num) + 1;  // меньше потребление ресурсов компа
+        int numDigits = (int)Math.log10(num) + 1;  // меньше потребление ресурсов
         int m = 1;
         for (int i = 0; i < numDigits; i++) {
             m *= num % 10;
