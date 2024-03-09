@@ -2,7 +2,7 @@ package HomeWork_1_3;
 
 import java.util.Scanner;
 
-public class ProductOfDigits {
+public class MultiplyingDigits {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите число: ");
