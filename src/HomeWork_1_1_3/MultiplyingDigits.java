@@ -16,6 +16,7 @@ public class MultiplyingDigits {
         for (int i = 0; i < numDigits; i++) {
             m *= num % 10;
             num /= 10;
+
         }
         System.out.println("Произведение цифр числа " + num1 + " равно: " + m);
 
