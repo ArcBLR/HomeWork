@@ -18,7 +18,7 @@ public class MultiplyingDigits {
         for (int i = 0; i < numDigits; i++) {
             m *= num % 10;
             System.out.print("Берем последнюю цифру числа " + num);
-            System.out.println(" и умножаем на предыдущий результат: " + m);
+            System.out.println(" и умножаем на предыдущий результат получаем: " + m);
             num /= 10;
             System.out.println("Оставшиеся цифры: " + num);
 
