@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="добавлены решения ещё двух заданий">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_1_2_3/ArrowElement_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,6 @@
     <setting file="file://$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/HomeWork_1_2_2/ArrayElement.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/HomeWork_1_2_3/ArrowElement_2.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProblemsViewState">
@@ -72,7 +72,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.ArrayElement.executor": "Run",
-    "Application.ArrowElement_2.executor": "Coverage",
+    "Application.ArrowElement_2.executor": "Run",
     "Application.Factorial.executor": "Run",
     "Application.HomeWork_1_1_2.Factorial.executor": "Run",
     "Application.Massif.executor": "Run",
@@ -326,15 +326,7 @@
       <option name="project" value="LOCAL" />
       <updated>1710080867044</updated>
     </task>
-    <task id="LOCAL-00018" summary="добавлены решения ещё двух заданий">
-      <option name="closed" value="true" />
-      <created>1710085925938</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1710085925938</updated>
-    </task>
-    <option name="localTasksCounter" value="19" />
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -404,10 +396,5 @@
     <MESSAGE value="небольшие изменения" />
     <MESSAGE value="добавлены решения ещё двух заданий" />
     <option name="LAST_COMMIT_MESSAGE" value="добавлены решения ещё двух заданий" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/HomeWork$ArrowElement_2.ic" NAME="ArrowElement_2 Coverage Results" MODIFIED="1710086001437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>HomeWork_1_2_3.*</FILTER>
-    </SUITE>
   </component>
 </project>
