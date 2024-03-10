@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Изменение метода наименование пакетов">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Добавил еще один способ посчитать кол-во цифр в числе">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +47,11 @@
     <setting file="file://$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Main.java" root0="SKIP_INSPECTION" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="groupByToolId" value="true" />
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="sortByName" value="true" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -57,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Factorial.executor": "Run",
+    "Application.HomeWork_1_1_2.Factorial.executor": "Run",
     "Application.MultiplicationTable.executor": "Run",
     "Application.MultiplyingDigits.executor": "Run",
     "Application.ProductOfDigits.executor": "Run",
@@ -81,6 +89,19 @@
   <component name="RunManager" selected="Application.MultiplyingDigits">
     <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork1_2.Factorial" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_1_1_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork_1_1_2.Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_1_1_2.Factorial" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
@@ -121,6 +142,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MultiplyingDigits" />
+        <item itemvalue="Application.HomeWork_1_1_2.Factorial" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.Factorial" />
       </list>
@@ -230,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710061786686</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Добавил еще один способ посчитать кол-во цифр в числе">
+      <option name="closed" value="true" />
+      <created>1710062463384</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710062463384</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -294,6 +324,7 @@
     <MESSAGE value="Переименование пакета в ProductOfDigits в MultiplyingDigits" />
     <MESSAGE value="Добавлено описание в packege HomeWork_1_3" />
     <MESSAGE value="Изменение метода наименование пакетов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменение метода наименование пакетов" />
+    <MESSAGE value="Добавил еще один способ посчитать кол-во цифр в числе" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил еще один способ посчитать кол-во цифр в числе" />
   </component>
 </project>

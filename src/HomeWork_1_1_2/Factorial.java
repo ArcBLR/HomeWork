@@ -8,7 +8,7 @@ public class Factorial {
         System.out.print("Введите число: ");
         int num = in.nextInt();
 
-        int result = 1;
+        long result = 1; //если взять тип int то можно перемножить максимум до 31, если Long до 63
         for (int i = 1; i <= num; i++) {
             result = result * i;
         }
