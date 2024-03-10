@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Добавил еще один способ посчитать кол-во цифр в числе">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Добавлено выведение хода вычисления в консоль">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710062463384</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Добавлено выведение хода вычисления в консоль">
+      <option name="closed" value="true" />
+      <created>1710066574079</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1710066574079</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,6 +331,7 @@
     <MESSAGE value="Добавлено описание в packege HomeWork_1_3" />
     <MESSAGE value="Изменение метода наименование пакетов" />
     <MESSAGE value="Добавил еще один способ посчитать кол-во цифр в числе" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил еще один способ посчитать кол-во цифр в числе" />
+    <MESSAGE value="Добавлено выведение хода вычисления в консоль" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено выведение хода вычисления в консоль" />
   </component>
 </project>
