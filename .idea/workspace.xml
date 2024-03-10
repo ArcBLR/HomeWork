@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Переименование пакета в ProductOfDigits в MultiplyingDigits">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Добавлено описание в packege HomeWork_1_3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -56,7 +61,7 @@
     "Application.ProductOfDigits.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "develop",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/Proba2",
@@ -72,7 +77,7 @@
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork_1_2.*" />
+          <option name="PATTERN" value="HomeWork_1_1_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,11 +86,11 @@
       </method>
     </configuration>
     <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork_1_1.MultiplicationTable" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork_1_1_1.MultiplicationTable" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork_1_1.*" />
+          <option name="PATTERN" value="HomeWork_1_1_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -94,11 +99,11 @@
       </method>
     </configuration>
     <configuration name="MultiplyingDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork_1_3.MultiplyingDigits" />
+      <option name="MAIN_CLASS_NAME" value="HomeWork_1_1_3.MultiplyingDigits" />
       <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HomeWork_1_3.*" />
+          <option name="PATTERN" value="HomeWork_1_1_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710017409233</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Добавлено описание в packege HomeWork_1_3">
+      <option name="closed" value="true" />
+      <created>1710017990777</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1710017990777</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Добавлено описание в packege HomeWork_1_3">
+      <option name="closed" value="true" />
+      <created>1710018019425</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1710018019425</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -187,6 +208,11 @@
         <entry key="Branch">
           <value>
             <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="develop" />
+                </option>
+              </RecentGroup>
               <RecentGroup>
                 <option name="FILTER_VALUES">
                   <option value="origin/master" />
@@ -206,7 +232,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="develop" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -217,7 +255,8 @@
     <MESSAGE value="Добавлен package для вычисления факториала числа введенного в консоли." />
     <MESSAGE value="Добавлен package для вычисления произведения всех цифр числа введенного в консоль." />
     <MESSAGE value="Переименование пакета в ProductOfDigits в MultiplyingDigits" />
-    <option name="LAST_COMMIT_MESSAGE" value="Переименование пакета в ProductOfDigits в MultiplyingDigits" />
+    <MESSAGE value="Добавлено описание в packege HomeWork_1_3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавлено описание в packege HomeWork_1_3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
