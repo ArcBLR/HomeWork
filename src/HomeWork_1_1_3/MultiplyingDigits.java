@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class MultiplyingDigits {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner number = new Scanner(System.in);
         System.out.print("Введите число: ");
-        int num = in.nextInt();
+        int num = number.nextInt();
         int num1 = num;
 //        int numDigits = Integer.toString(num).length(); //вводимое число преобразуется в строку и считаются символы
 //        int numDigits = String.valueOf(num).length();   //аналог Integer.toString
