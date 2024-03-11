@@ -8,9 +8,9 @@ public class CarBodyType {
         return bodyType;
     }
 
-    public CarBodyType(String bt){
-        bodyType=bt;
-        System.out.printf("Тип кузова автомобиля - %s\n",this);
+    public CarBodyType(String bt) {
+        bodyType = bt;
+        System.out.printf("Тип кузова автомобиля - %s\n", this);
 
     }
 

@@ -8,9 +8,9 @@ public class CarColor {
         return color;
     }
 
-    public CarColor(String col){
-        color=col;
-        System.out.printf("Цвет кузова автомобиля - %s\n",this);
+    public CarColor(String col) {
+        color = col;
+        System.out.printf("Цвет кузова автомобиля - %s\n", this);
     }
 
 }

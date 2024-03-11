@@ -8,10 +8,10 @@ public class Factorial {
         System.out.print("Введите число: ");
         int num = in.nextInt();
 
-        long result = 1; //если взять тип int то можно перемножить максимум до 31, если Long до 63
+        long result = 1;
         for (int i = 1; i <= num; i++) {
             result = result * i;
         }
-        System.out.println("Результат перемножения всех чисел от 1 до " + num + ": " + result);
+        System.out.println("Результат произведения всех чисел от 1 до " + num + ": " + result);
     }
 }

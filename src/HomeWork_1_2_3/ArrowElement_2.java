@@ -11,7 +11,7 @@ public class ArrowElement_2 {
         fruit[4] = "Грейпфрут";
         fruit[5] = "Лимон";
 
-        for (int i = 1; i < fruit.length; i+=2) {
+        for (int i = 1; i < fruit.length; i += 2) {
             if (fruit[i] == null) {
                 break;
             }

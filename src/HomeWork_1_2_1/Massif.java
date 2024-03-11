@@ -8,13 +8,11 @@ public class Massif {
             System.out.print(array[i]);
 
         }
-        System.out.println("");
-        System.out.println("Перебор массива циклом foreach");
+        System.out.println("\n"+"Перебор массива циклом foreach");
         for (int i : array) {
             System.out.print(i);
         }
-        System.out.println("");
-        System.out.println("Перебор многоуровневого массива циклом for");
+        System.out.println("\n"+"Перебор многоуровневого массива циклом for");
         int[][] array2 = new int[][]
                 {
                         {1, 2, 3},
@@ -28,7 +26,6 @@ public class Massif {
             }
             System.out.println();
         }
-        System.out.println("");
         System.out.println("Перебор массива циклом do...while");
         int k = 0;
         do {
@@ -36,8 +33,7 @@ public class Massif {
             k++;
         }
         while (k < array.length);
-        System.out.println("");
-        System.out.println("Перебор массива циклом while");
+        System.out.println("\n"+"Перебор массива циклом while");
         int j = 0;
         while (j < array.length) {
             System.out.print(array[j]);

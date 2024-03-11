@@ -11,7 +11,6 @@ public class ArrowElement_3 {
             CarColor col = new CarColor(array[i++]);
 
 
-
         }
 
     }

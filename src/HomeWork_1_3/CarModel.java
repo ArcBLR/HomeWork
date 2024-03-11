@@ -8,8 +8,8 @@ public class CarModel {
         return model;
     }
 
-    public CarModel(String md){
-        model=md;
+    public CarModel(String md) {
+        model = md;
         System.out.printf("Модель автомобиля - %s\n", this);
 
     }

@@ -12,7 +12,7 @@ public class MultiplyingDigits {
 //        int numDigits = String.valueOf(num).length();   //аналог Integer.toString
         int numDigits = (int) Math.log10(num) + 1;  /* берется Log по основанию 10, он возвращает колличество цифр
 //                                                       в числе -1 и по этому добавляем +1
-//                                                       меньше потребление ресурсов*/
+//                                                       меньше потребление ресурсов компа.*/
         System.out.println("Кол-во цифр в числе: " + numDigits);
         int m = 1;
         for (int i = 0; i < numDigits; i++) {
