@@ -6,7 +6,6 @@ public class Engine {
     private String enginName;
     private String fuelGrade;
 
-
     public Engine(int engineCapasity, String enginName, String fuelGrade) {
         this.engineCapasity = engineCapasity;
         this.enginName = enginName;
@@ -15,6 +14,6 @@ public class Engine {
 
     @Override
     public String toString() {
-        return "\nОбъём двигателя - "+engineCapasity +"\nМарка двигателя -"+ enginName +"\nМарка бензина - " + fuelGrade;
+        return "\nОбъём двигателя - " + engineCapasity + "\nМарка двигателя - " + enginName + "\nМарка бензина - " + fuelGrade;
     }
 }

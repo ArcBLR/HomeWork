@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Все задачи решены по моему мнению, Если только я правильно понял последнюю!!!">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Немного исправил последнюю задачу.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_2/Factorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_1_3/MultiplyingDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_2_1/Massif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_2_1/Massif.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_2_3/ArrowElement_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_2_3/ArrowElement_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/ArrowElement_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/ArrowElement_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/CarBodyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarBodyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/CarBrand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarBrand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/CarColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/CarModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Season.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -90,9 +85,10 @@
     "Application.MultiplicationTable.executor": "Run",
     "Application.MultiplyingDigits.executor": "Run",
     "Application.ProductOfDigits.executor": "Run",
+    "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/IdeaProjects/Proba2",
@@ -109,20 +105,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Factorial">
-    <configuration name="ArrowElement_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HomeWork_1_2_3.ArrowElement_2" />
-      <module name="HomeWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="HomeWork_1_2_3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Program">
     <configuration name="ArrowElement_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_1_3.ArrowElement_3" />
       <module name="HomeWork" />
@@ -175,13 +158,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HomeWork_2.Program" />
+      <module name="HomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HomeWork_2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Program" />
+        <item itemvalue="Application.ArrowElement_3" />
         <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.MultiplyingDigits" />
         <item itemvalue="Application.Massif" />
-        <item itemvalue="Application.ArrowElement_3" />
-        <item itemvalue="Application.ArrowElement_2" />
       </list>
     </recent_temporary>
   </component>
@@ -345,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710185902221</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Немного исправил последнюю задачу.">
+      <option name="closed" value="true" />
+      <created>1710408214451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1710408214451</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,7 +393,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/master" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -415,6 +419,7 @@
     <MESSAGE value="небольшие изменения" />
     <MESSAGE value="добавлены решения ещё двух заданий" />
     <MESSAGE value="Все задачи решены по моему мнению, Если только я правильно понял последнюю!!!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Все задачи решены по моему мнению, Если только я правильно понял последнюю!!!" />
+    <MESSAGE value="Немного исправил последнюю задачу." />
+    <option name="LAST_COMMIT_MESSAGE" value="Немного исправил последнюю задачу." />
   </component>
 </project>
