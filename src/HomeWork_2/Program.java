@@ -14,6 +14,5 @@ public class Program {
         } else {
             System.out.println("У Вас нет доступа в автомобиль");
         }
-
     }
 }
