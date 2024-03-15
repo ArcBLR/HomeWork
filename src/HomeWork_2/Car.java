@@ -1,12 +1,19 @@
 package HomeWork_2;
 
 public class Car {
-    private Tire tire;
     private Engine engine;
-    public Car(Tire tire, Engine engine) {
-        this.tire = tire;
+    private Tire tire;
+    private CarInfo carInfo;
+    private Lock lock;
+
+
+    public Car(Engine engine, Tire tire, CarInfo carInfo, Lock lock) {
         this.engine = engine;
+        this.tire = tire;
+        this.carInfo = carInfo;
+        this.lock = lock;
     }
+
     @Override
     public String toString() {
         return tire +

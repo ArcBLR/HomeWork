@@ -14,6 +14,6 @@ public class Engine {
 
     @Override
     public String toString() {
-        return "\nОбъём двигателя - " + engineCapasity + "\nМарка двигателя - " + enginName + "\nМарка бензина - " + fuelGrade;
+        return "\nОбъём двигателя - " + engineCapasity + " mm3" + "\nМарка двигателя - " + enginName + "\nМарка бензина - " + fuelGrade;
     }
 }

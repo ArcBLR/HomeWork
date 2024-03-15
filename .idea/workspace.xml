@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Немного исправил последнюю задачу.">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarBodyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarBrand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_1_3/CarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfoShow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_1_3/ArrowElement_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_1_3/ArrowElement_3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Season.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Season.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +26,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -60,7 +68,7 @@
   </component>
   <component name="ProblemsViewState">
     <option name="groupByToolId" value="true" />
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
     <option name="sortByName" value="true" />
   </component>
   <component name="ProjectColorInfo">{
@@ -88,10 +96,10 @@
     "Application.Program.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rebasing master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/IdeaProjects/Proba2",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/HomeWork/HomeWork/HomeWork.iml",
     "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/HomeWork/HomeWork/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -420,6 +428,7 @@
     <MESSAGE value="добавлены решения ещё двух заданий" />
     <MESSAGE value="Все задачи решены по моему мнению, Если только я правильно понял последнюю!!!" />
     <MESSAGE value="Немного исправил последнюю задачу." />
-    <option name="LAST_COMMIT_MESSAGE" value="Немного исправил последнюю задачу." />
+    <MESSAGE value="Исправил ДЗ_1, добавил часть ДЗ_2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправил ДЗ_1, добавил часть ДЗ_2" />
   </component>
 </project>
