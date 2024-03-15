@@ -1,6 +1,6 @@
 package HomeWork_2;
 
-public class CarInfo /*implements CarInfoShow*/{
+public class CarInfo {
     private int namberSeats;
     private String categoryRights;
 
@@ -9,12 +9,8 @@ public class CarInfo /*implements CarInfoShow*/{
         this.categoryRights = categoryRights;
     }
 
-    /*@Override
-    public String CarInfo() {
-        return "\nКоличество мест в автомобиле - " + namberSeats + "\nКатегория прав необходимая для управления данным автомобилем - " + categoryRights;
-    }*/
     @Override
     public String toString() {
-        return "\nКоличество мест в автомобиле - " + namberSeats + "\nКатегория прав необходимая для управления данным автомобилем - " + categoryRights;
-     }
+        return "\nКодичество мест в автомобиле - " + namberSeats + "\nКатегория прав необходимая для управления данным автомобилем - " + categoryRights;
+    }
 }

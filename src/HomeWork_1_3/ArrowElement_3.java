@@ -2,6 +2,16 @@ package HomeWork_1_3;
 
 public class ArrowElement_3 {
     public static void main(String[] args) {
-        ArrowEl arrowEl =  new ArrowEl(new CarBrand("Volvo"), new CarModel("S80"),new CarBodyType("Sedan"),new CarColor("Red"));
+        String[] array = {"Volvo", "S80", "SW", "Red"};
+        for (int i = 0; i < array.length; ) {
+
+            CarBrand br = new CarBrand(array[i++]);
+            CarModel md = new CarModel(array[i++]);
+            CarBodyType bt = new CarBodyType(array[i++]);
+            CarColor col = new CarColor(array[i++]);
+
+
+        }
+
     }
 }
