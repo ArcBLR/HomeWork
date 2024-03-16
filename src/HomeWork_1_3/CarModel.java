@@ -11,6 +11,5 @@ public class CarModel {
     public CarModel(String md) {
         model = md;
         System.out.printf("Модель автомобиля - %s\n", this);
-
     }
 }
