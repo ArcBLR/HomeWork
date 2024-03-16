@@ -6,7 +6,6 @@ public class Car {
     private CarInfo carInfo;
     private Lock lock;
 
-
     public Car(Engine engine, Tire tire, CarInfo carInfo, Lock lock) {
         this.engine = engine;
         this.tire = tire;
@@ -16,8 +15,7 @@ public class Car {
 
     @Override
     public String toString() {
-        return tire +
-                "\nПараметры двигателя:" + engine;
+        return ""+engine+tire+carInfo+lock;
     }
 }
 

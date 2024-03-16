@@ -12,7 +12,7 @@ public class Engine {
         this.fuelGrade = fuelGrade;
     }
 
-    @Override
+    @java.lang.Override
     public String toString() {
         return "\nОбъём двигателя - " + engineCapasity + " mm3" + "\nМарка двигателя - " + enginName + "\nМарка бензина - " + fuelGrade;
     }
