@@ -3,11 +3,7 @@ package HomeWork_2;
 public class Lock {
     private int key;
 
-    public Lock(int key) {
-        this.key = key;
-    }
-
-    public int getKey() {
+      public int getKey() {
         return key;
     }
 
@@ -17,6 +13,6 @@ public class Lock {
 
     @Override
     public String toString() {
-        return "";
+        return " ";
     }
 }
