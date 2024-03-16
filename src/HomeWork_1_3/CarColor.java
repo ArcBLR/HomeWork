@@ -12,5 +12,4 @@ public class CarColor {
         color = col;
         System.out.printf("Цвет кузова автомобиля - %s\n", this);
     }
-
 }

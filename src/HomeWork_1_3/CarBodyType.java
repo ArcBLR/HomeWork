@@ -11,8 +11,5 @@ public class CarBodyType {
     public CarBodyType(String bt) {
         bodyType = bt;
         System.out.printf("Тип кузова автомобиля - %s\n", this);
-
     }
-
-
 }
