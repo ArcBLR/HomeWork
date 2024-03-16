@@ -9,11 +9,12 @@ public class Program {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите PIN код для доступа в автомобиль: ");
         int pin = in.nextInt();
-        if (pin == 1235) {
+        if (pin == 1234234134) {
             System.out.println("Доступ в автомобиль открыт");
         } else {
             System.out.println("Доступ в автомобиль закрыт");
         }
+        System.out.println("test");
 
     }
 }
