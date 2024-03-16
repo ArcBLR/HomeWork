@@ -21,7 +21,6 @@ public class MultiplyingDigits {
             System.out.println(" и умножаем на предыдущий результат получаем: " + m);
             num /= 10;
             System.out.println("Оставшиеся цифры: " + num);
-
         }
         System.out.println("Произведение цифр числа " + num1 + " равно: " + m);
 
