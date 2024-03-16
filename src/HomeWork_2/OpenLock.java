@@ -1,6 +1,6 @@
 package HomeWork_2;
 
-public class Lock {
+public class OpenLock {
     private int key;
 
       public int getKey() {

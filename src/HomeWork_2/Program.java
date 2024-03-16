@@ -7,7 +7,7 @@ public class Program {
         Car car = new Car(new Engine(1800, "B4184S2", "АИ-95"),
                 new Tire(Season.SUMMER, 16, "Michelin"),
                 new CarInfo(5, "A"));
-        Lock lock = new Lock();
+        OpenLock lock = new OpenLock();
         lock.setKey(1235);
         System.out.println(car);
         Scanner in = new Scanner(System.in);
