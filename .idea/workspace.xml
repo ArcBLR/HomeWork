@@ -106,7 +106,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ArrowElement_3">
+  <component name="RunManager" selected="Application.Program">
     <configuration name="ArrowElement_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_1_3.ArrowElement_3" />
       <module name="HomeWork" />
@@ -174,8 +174,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ArrowElement_3" />
         <item itemvalue="Application.Program" />
+        <item itemvalue="Application.ArrowElement_3" />
         <item itemvalue="Application.MultiplyingDigits" />
         <item itemvalue="Application.Massif" />
         <item itemvalue="Application.Factorial" />
