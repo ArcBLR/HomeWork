@@ -7,6 +7,14 @@ public class Lock {
         this.key = key;
     }
 
+    public int getKey() {
+        return key;
+    }
+
+    public void setKey(int key) {
+        this.key = key;
+    }
+
     @Override
     public String toString() {
         return "";
