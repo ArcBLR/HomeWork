@@ -10,7 +10,6 @@ public class Program {
         OpenLock lock = new OpenLock(1235);
         Drivers rights = new Drivers("B", 2);
 
-
         engine.VehicleInformation();
         tire.VehicleInformation();
         carInfo.VehicleInformation();
@@ -18,9 +17,9 @@ public class Program {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите категории имеющегося у Вас водительского удостоверения " +
                 "(пример: ABCD.. или \"нет\" если у Вас нет удостоверения - ");
-
         String category = in.next();
         String str = category;
+
         System.out.print("Введите Ваш стаж воджения  - ");
         int experience = in.nextInt();
         int rightsExp = experience;
