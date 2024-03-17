@@ -7,8 +7,7 @@ public class Program {
         Car car = new Car(new Engine(1800, "B4184S2", "АИ-95"),
                 new Tire(Season.SUMMER, 16, "Michelin"),
                 new CarInfo(5, "A"));
-        OpenLock lock = new OpenLock();
-        lock.setKey(1235);
+        OpenLock lock = new OpenLock(1235);
         System.out.println(car);
         Scanner in = new Scanner(System.in);
         System.out.print("Введите PIN код для доступа в автомобиль: ");

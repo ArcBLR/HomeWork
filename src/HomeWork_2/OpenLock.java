@@ -11,6 +11,10 @@ public class OpenLock {
         this.key = key;
     }
 
+    public OpenLock(int key) {
+        this.key = key;
+    }
+
     @Override
     public String toString() {
         return " ";
