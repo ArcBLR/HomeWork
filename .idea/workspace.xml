@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="создал класс Drivers">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="Заменил метод toString на использвание классов">
+      <change afterPath="$PROJECT_DIR$/src/HomeWork_2/Rights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/DriversInfoShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfoShow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Drivers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,37 +79,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayElement.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrowElement_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ArrowElement_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HomeWork_1_1_2.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Massif.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplicationTable.executor&quot;: &quot;Run&quot;,
-    &quot;Application.MultiplyingDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ProductOfDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Program.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/HomeWork/HomeWork&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/user/IdeaProjects/HomeWork/HomeWork/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayElement.executor": "Run",
+    "Application.ArrowElement_2.executor": "Run",
+    "Application.ArrowElement_3.executor": "Run",
+    "Application.Factorial.executor": "Run",
+    "Application.HomeWork_1_1_2.Factorial.executor": "Run",
+    "Application.Massif.executor": "Run",
+    "Application.MultiplicationTable.executor": "Run",
+    "Application.MultiplyingDigits.executor": "Run",
+    "Application.ProductOfDigits.executor": "Run",
+    "Application.Program.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/HomeWork/HomeWork",
+    "onboarding.tips.debug.path": "C:/Users/user/IdeaProjects/HomeWork/HomeWork/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editing.templates"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "module"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.Program">
     <configuration name="ArrowElement_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HomeWork_1_3.ArrowElement_3" />
@@ -476,7 +474,23 @@
       <option name="project" value="LOCAL" />
       <updated>1710646669562</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="создал класс Drivers">
+      <option name="closed" value="true" />
+      <created>1710649927868</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1710649927868</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Заменил метод toString на использвание классов">
+      <option name="closed" value="true" />
+      <created>1710650089388</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710650089388</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -554,6 +568,7 @@
     <MESSAGE value="Изменил название класса Lock на OpenLock" />
     <MESSAGE value="эксперемент с классом OpenLock" />
     <MESSAGE value="создал класс Drivers" />
-    <option name="LAST_COMMIT_MESSAGE" value="создал класс Drivers" />
+    <MESSAGE value="Заменил метод toString на использвание классов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Заменил метод toString на использвание классов" />
   </component>
 </project>

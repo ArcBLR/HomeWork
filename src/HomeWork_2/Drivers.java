@@ -1,8 +1,8 @@
 package HomeWork_2;
 
 public class Drivers {
-    private String drivingCategoryRights;
-    private String drivingExperiens;
+//    private String drivingCategoryRights;
+//    private String drivingExperiens;
 
 
 }
