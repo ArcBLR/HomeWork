@@ -1,7 +1,7 @@
 package HomeWork_2;
 
 public class OpenLock {
-    private int key;
+    private final int key;
 
       public int getKey() {
         return key;
