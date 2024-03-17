@@ -7,11 +7,7 @@ public class OpenLock {
         return key;
     }
 
-    public void setKey(int key) {
-        this.key = key;
-    }
-
-    public OpenLock(int key) {
+        public OpenLock(int key) {
         this.key = key;
     }
 
