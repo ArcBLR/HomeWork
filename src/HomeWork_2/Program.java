@@ -25,32 +25,32 @@ public class Program {
         int experience = in.nextInt();
         int rightsExp = experience;
         if (str.contains(rights.getCategoryRights()) & (rightsExp >= rights.getDrivingExperience()) == true) {
-            System.out.println("У Вас есть право управление данным автомобилем");
+            System.out.println("У Вас есть право управление данным автомобилем!");
         } else {
-            System.out.println("У Вас нет возможности управления данным автомобилем");
+            System.out.println("У Вас нет возможности управления данным автомобилем!");
             rights.DriversInfoShow();
             return;
         }
         System.out.print("Введите ключ для доступа в автомобиль: ");
         int pin = in.nextInt();
         if (pin == lock.getKey()) {
-            System.out.println("Доступ в автомобиль открыт");
+            System.out.println("Доступ в автомобиль открыт.");
         } else {
-            System.out.println("Ключ не подходит, у Вас нет доступа в автомобиль");
+            System.out.println("Ключ не подходит, у Вас нет доступа в автомобиль!");
             return;
         }
-
-        System.out.print("Введите количество пассажиров посаженных в автомобиль - ");
+        System.out.print("Введите количество пассажиров для посадки в автомобиль - ");
         int pc = in.nextInt();
         if (pc < carInfo.getNumberSeats()) {
-            System.out.println("Можно ехать");
+            System.out.println("Можно ехать, но в баке нет бензина.");
         } else {
             System.out.println("Количество пасажиров превышает количество мест в автомобиле!");
             return;
         }
         System.out.println("Залейте в бак бензин марки - " + engine.getFuelGrade());
         System.out.printf("В бак вмещается %d л.\n", carInfo.getRefillingCar());
-//        drivers.DriversInfoShow();
+        System.out.print("Сколько залить топлива? - ");
+
         int zf = in.nextInt();
         if (zf < carInfo.getRefillingCar()) {
             System.out.printf("Сейчас в баке %d литров топлива", zf);

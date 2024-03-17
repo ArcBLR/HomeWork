@@ -12,7 +12,7 @@ public class CarInfo implements CarInfoShow {
     @Override
     public void VehicleInformation() {
         System.out.println("Количество мест в автомобиле - " + this.numberSeats);
-        System.out.println("Количество заправленного топлива - " + this.refillingCar);
+        System.out.println("Количество топлива вмещающегося в бак - " + this.refillingCar);
     }
 
     public int getNumberSeats() {

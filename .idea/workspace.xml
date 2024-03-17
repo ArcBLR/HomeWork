@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/HomeWork_2/DriversInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Drivers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Drivers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Rights.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,9 +177,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Program" />
-        <item itemvalue="Application.Factorial" />
-        <item itemvalue="Application.Massif" />
         <item itemvalue="Application.MultiplyingDigits" />
+        <item itemvalue="Application.Massif" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.ArrowElement_3" />
       </list>
     </recent_temporary>
