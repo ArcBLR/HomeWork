@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        Engine engine = new Engine(1800, "Volvo", "AИ-95");
+        Engine engine = new Engine("Volvo",1800, "B4184S2", "AИ-95");
         Tire tire = new Tire(Season.WINTER, 19, "Michelin");
-        CarInfo carInfo = new CarInfo(8, "B");
+        CarInfo carInfo = new CarInfo(5,60);
         OpenLock lock = new OpenLock(1235);
-        Rights rights = new Rights("B", 3);
+        Drivers rights = new Drivers("B", 2);
+
 
         engine.VehicleInformation();
         tire.VehicleInformation();
@@ -27,17 +28,39 @@ public class Program {
             System.out.println("У Вас есть право управление данным автомобилем");
         } else {
             System.out.println("У Вас нет возможности управления данным автомобилем");
-            rights.VehicleInformation();
+            rights.DriversInfoShow();
             return;
         }
-        System.out.print("Введите PIN код для доступа в автомобиль: ");
+        System.out.print("Введите ключ для доступа в автомобиль: ");
         int pin = in.nextInt();
         if (pin == lock.getKey()) {
             System.out.println("Доступ в автомобиль открыт");
         } else {
-            System.out.println("У Вас нет доступа в автомобиль");
+            System.out.println("Ключ не подходит, у Вас нет доступа в автомобиль");
             return;
         }
+
+        System.out.print("Введите количество пассажиров посаженных в автомобиль - ");
+        int pc = in.nextInt();
+        if (pc < carInfo.getNumberSeats()) {
+            System.out.println("Можно ехать");
+        } else {
+            System.out.println("Количество пасажиров превышает количество мест в автомобиле!");
+            return;
+        }
+        System.out.println("Залейте в бак бензин марки - " + engine.getFuelGrade());
+        System.out.printf("В бак вмещается %d л.\n", carInfo.getRefillingCar());
+//        drivers.DriversInfoShow();
+        int zf = in.nextInt();
+        if (zf < carInfo.getRefillingCar()) {
+            System.out.printf("Сейчас в баке %d литров топлива", zf);
+        } else {
+            System.out.println("Такое количество топлива залить невозможно");
+            return;
+        }
+        System.out.println("\nСЧАСТЛИВОГО ПУТИ!!!");
     }
 }
+
+
 
