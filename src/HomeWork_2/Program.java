@@ -7,10 +7,12 @@ public class Program {
         Engine engine = new Engine(1800, "Volvo", "AИ-95");
         Tire tire = new Tire(Season.WINTER, 19, "Michelin");
         CarInfo carInfo = new CarInfo(5, "A");
+        OpenLock lock = new OpenLock(1235);
+
         engine.VehicleInformation();
         tire.VehicleInformation();
         carInfo.VehicleInformation();
-        OpenLock lock = new OpenLock(1235);
+
         Scanner in = new Scanner(System.in);
         System.out.print("Введите PIN код для доступа в автомобиль: ");
         int pin = in.nextInt();
