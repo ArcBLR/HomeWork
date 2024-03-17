@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        Engine engine = new Engine("Volvo",1800, "B4184S2", "AИ-95");
+        Engine engine = new Engine("Volvo", 1800, "B4184S2", "AИ-95");
         Tire tire = new Tire(Season.WINTER, 19, "Michelin");
-        CarInfo carInfo = new CarInfo(5,60);
+        CarInfo carInfo = new CarInfo(5, 60);
         OpenLock lock = new OpenLock(1235);
         Drivers rights = new Drivers("B", 2);
 
@@ -25,12 +25,13 @@ public class Program {
         int experience = in.nextInt();
         int rightsExp = experience;
         if (str.contains(rights.getCategoryRights()) & (rightsExp >= rights.getDrivingExperience()) == true) {
-            System.out.println("У Вас есть право управление данным автомобилем!");
+            System.out.println("У Вас есть право управления данным автомобилем!");
         } else {
             System.out.println("У Вас нет возможности управления данным автомобилем!");
             rights.DriversInfoShow();
             return;
         }
+
         System.out.print("Введите ключ для доступа в автомобиль: ");
         int pin = in.nextInt();
         if (pin == lock.getKey()) {
@@ -39,6 +40,7 @@ public class Program {
             System.out.println("Ключ не подходит, у Вас нет доступа в автомобиль!");
             return;
         }
+
         System.out.print("Введите количество пассажиров для посадки в автомобиль - ");
         int pc = in.nextInt();
         if (pc < carInfo.getNumberSeats()) {
@@ -47,6 +49,7 @@ public class Program {
             System.out.println("Количество пасажиров превышает количество мест в автомобиле!");
             return;
         }
+
         System.out.println("Залейте в бак бензин марки - " + engine.getFuelGrade());
         System.out.printf("В бак вмещается %d л.\n", carInfo.getRefillingCar());
         System.out.print("Сколько залить топлива? - ");
@@ -58,9 +61,7 @@ public class Program {
             System.out.println("Такое количество топлива залить невозможно");
             return;
         }
+
         System.out.println("\nСЧАСТЛИВОГО ПУТИ!!!");
     }
 }
-
-
-
