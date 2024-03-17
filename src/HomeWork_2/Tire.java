@@ -1,9 +1,9 @@
 package HomeWork_2;
 
-public class Tire {
-private Season season;
-private int radius;
-private String tireBrand;
+public class Tire implements CarInfoShow {
+    private Season season;
+    private int radius;
+    private String tireBrand;
 
     public Tire(Season season, int radius, String tireBrand) {
         this.season = season;
@@ -12,7 +12,9 @@ private String tireBrand;
     }
 
     @Override
-    public String toString() {
-        return "\nСезонность шин - "+ season +"\nРадиус шины - " + radius +"\nПроизводитель шишы - "+ tireBrand;
+    public void VehicleInformation() {
+        System.out.println("Сезонность шин - " + this.season);
+        System.out.println("Радиус шины - " + this.radius);
+        System.out.println("Производитель шишы - " + this.tireBrand);
     }
 }

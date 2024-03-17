@@ -1,6 +1,6 @@
 package HomeWork_2;
 
-public class CarInfo {
+public class CarInfo implements CarInfoShow {
     private int numberSeats;
     private String categoryRights;
 
@@ -10,7 +10,8 @@ public class CarInfo {
     }
 
     @Override
-    public String toString() {
-        return "\nКодичество мест в автомобиле - " + numberSeats + "\nКатегория прав необходимая для управления данным автомобилем - " + categoryRights;
+    public void VehicleInformation() {
+        System.out.println("Кодичество мест в автомобиле - " + this.numberSeats);
+        System.out.println("Категория прав необходимая для управления данным автомобилем - " + this.categoryRights);
     }
 }

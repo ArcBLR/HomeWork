@@ -1,6 +1,6 @@
 package HomeWork_2;
 
-public class Engine {
+public class Engine implements CarInfoShow {
     public static Tire engine;
     private int engineCapasity;
     private String enginName;
@@ -12,8 +12,10 @@ public class Engine {
         this.fuelGrade = fuelGrade;
     }
 
-    @java.lang.Override
-    public String toString() {
-        return "\nОбъём двигателя - " + engineCapasity + " mm3" + "\nМарка двигателя - " + enginName + "\nМарка бензина - " + fuelGrade;
+    @Override
+    public void VehicleInformation() {
+        System.out.println("Объём двигателя - " + this.engineCapasity);
+        System.out.println("Марка двигателя - " + this.enginName);
+        System.out.println("Марка бензина - " + this.fuelGrade);
     }
 }

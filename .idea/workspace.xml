@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="эксперемент с классом OpenLock">
+    <list default="true" id="857b7d34-dfe4-436b-a60f-a3a0175f2b2a" name="Changes" comment="создал класс Drivers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/DriversInfoShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/CarInfoShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HomeWork_2/Tire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -463,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710645931906</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="создал класс Drivers">
+      <option name="closed" value="true" />
+      <created>1710646669562</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1710646669562</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -540,6 +553,7 @@
     <MESSAGE value="Устранил замечания в HomeWork_1_3 2" />
     <MESSAGE value="Изменил название класса Lock на OpenLock" />
     <MESSAGE value="эксперемент с классом OpenLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="эксперемент с классом OpenLock" />
+    <MESSAGE value="создал класс Drivers" />
+    <option name="LAST_COMMIT_MESSAGE" value="создал класс Drivers" />
   </component>
 </project>
