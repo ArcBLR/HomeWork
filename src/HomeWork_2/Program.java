@@ -4,11 +4,12 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        Engine engine = new Engine("Volvo", 1800, "B4184S2", "AИ-95");
+        EngineVolvo engine = new EngineVolvo("Volvo", 1800, "B4184S2", "AИ-95");
         Tire tire = new Tire(Season.WINTER, 19, "Michelin");
         CarInfo carInfo = new CarInfo(5, 60);
         OpenLock lock = new OpenLock(1235);
         Drivers rights = new Drivers("B", 2);
+        Car volvoCar = new Car(engine, carInfo, tire, lock);
 
         engine.VehicleInformation();
         tire.VehicleInformation();
@@ -62,5 +63,6 @@ public class Program {
         }
 
         System.out.println("\nСЧАСТЛИВОГО ПУТИ!!!");
+        volvoCar.Move();
     }
 }

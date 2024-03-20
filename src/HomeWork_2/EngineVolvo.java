@@ -1,13 +1,14 @@
 package HomeWork_2;
 
-public class Engine implements CarInfoShow {
+public class EngineVolvo implements CarInfoShow {
 
     private String carBrand;
     private int engineCapasity;
     private String enginName;
     private String fuelGrade;
 
-    public Engine(String carBrand, int engineCapasity, String enginName, String fuelGrade) {
+
+    public EngineVolvo(String carBrand, int engineCapasity, String enginName, String fuelGrade) {
         this.carBrand = carBrand;
         this.engineCapasity = engineCapasity;
         this.enginName = enginName;
