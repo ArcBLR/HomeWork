@@ -1,14 +1,14 @@
 package HomeWork_2;
 
 public class Car implements Movebl{
-    private EngineVolvo engine;
+    private EngineVolvo engineVolvo;
     private CarInfo carInfo;
     private Tire tire;
     private OpenLock lock;
 
 
     public Car(EngineVolvo engine, CarInfo carInfo, Tire tire, OpenLock lock) {
-        this.engine = engine;
+        this.engineVolvo = engine;
         this.carInfo = carInfo;
         this.tire = tire;
         this.lock = lock;

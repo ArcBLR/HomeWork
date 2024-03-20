@@ -1,6 +1,6 @@
 package HomeWork_2;
 
-public class EngineVolvo extends Engine {
+public class EngineBMV extends Engine {
 
     private String carBrand;
     private int engineCapasity;
@@ -8,7 +8,7 @@ public class EngineVolvo extends Engine {
     private String fuelGrade;
 
 
-    public EngineVolvo(String carBrand, int engineCapasity, String enginName, String fuelGrade) {
+    public EngineBMV(String carBrand, int engineCapasity, String enginName, String fuelGrade) {
         this.carBrand = carBrand;
         this.engineCapasity = engineCapasity;
         this.enginName = enginName;
@@ -21,6 +21,7 @@ public class EngineVolvo extends Engine {
 
     @Override
     public void EngineInfo() {
+
         System.out.println("Марка автомобиля - " + carBrand);
         System.out.println("Объём двигателя - " + engineCapasity);
         System.out.println("Марка двигателя - " + enginName);

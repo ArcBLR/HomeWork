@@ -4,18 +4,34 @@ import java.util.Scanner;
 
 public class Program {
     public static void main(String[] args) {
-        EngineVolvo engine = new EngineVolvo("Volvo", 1800, "B4184S2", "AИ-95");
+        EngineVolvo engineVolvo = new EngineVolvo("Volvo", 1800, "B4184S2", "AИ-95");
+        EngineBMV engineBMV=new EngineBMV("BMV",1600,"M43B16","АИ-92");
         Tire tire = new Tire(Season.WINTER, 19, "Michelin");
         CarInfo carInfo = new CarInfo(5, 60);
         OpenLock lock = new OpenLock(1235);
         Drivers rights = new Drivers("B", 2);
-        Car volvoCar = new Car(engine, carInfo, tire, lock);
+        Car volvoCar = new Car(engineVolvo, carInfo, tire, lock);
 
-        engine.VehicleInformation();
+        Scanner in = new Scanner(System.in);
+        System.out.print("Выберите автомобиль для поездки (пример: BMV, Volvo)");
+        String avto = in.next();
+        String str1 = avto;
+
+        switch (str1){
+            case "BMV":
+            engineBMV.EngineInfo();
+            break;
+            case "Volvo":
+            engineVolvo.EngineInfo();
+            break;
+            default:
+                System.out.println("Такой автомобиль отсутствует!");
+                break;
+        }
+
         tire.VehicleInformation();
         carInfo.VehicleInformation();
 
-        Scanner in = new Scanner(System.in);
         System.out.print("Введите категории имеющегося у Вас водительского удостоверения " +
                 "(пример: ABCD.. или \"нет\" если у Вас нет удостоверения - ");
         String category = in.next();
@@ -50,7 +66,7 @@ public class Program {
             return;
         }
 
-        System.out.println("Залейте в бак бензин марки - " + engine.getFuelGrade());
+        System.out.println("Залейте в бак бензин марки - " + engineVolvo.getFuelGrade());
         System.out.printf("В бак вмещается %d л.\n", carInfo.getRefillingCar());
         System.out.print("Сколько залить топлива? - ");
 
