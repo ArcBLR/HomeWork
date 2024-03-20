@@ -15,7 +15,7 @@ public class Car implements Movebl{
     }
 
     @Override
-    public void Move() {
+    public void move() {
         System.out.println("Автомобиль едет");
     }
 }

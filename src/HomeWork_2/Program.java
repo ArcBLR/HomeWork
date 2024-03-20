@@ -79,6 +79,6 @@ public class Program {
         }
 
         System.out.println("\nСЧАСТЛИВОГО ПУТИ!!!");
-        volvoCar.Move();
+        volvoCar.move();
     }
 }
