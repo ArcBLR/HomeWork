@@ -19,10 +19,10 @@ public class Program {
 
         switch (str1) {
             case "BMV":
-                engineBMV.EngineInfo();
+                engineBMV.engineInfo();
                 break;
             case "Volvo":
-                engineVolvo.EngineInfo();
+                engineVolvo.engineInfo();
                 break;
             default:
                 System.out.println("Такой автомобиль отсутствует!");

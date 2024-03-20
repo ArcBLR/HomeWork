@@ -1,5 +1,5 @@
 package HomeWork_2;
 
 public abstract class Engine {
-    public abstract void EngineInfo();
+    public abstract void engineInfo();
 }
